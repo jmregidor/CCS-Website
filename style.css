@@ -303,13 +303,14 @@ i {
 
 .tech-icons {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
-  max-width: 320px;
+  max-width: 100%;
 }
 
 .tech-icons img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   transition: transform 0.2s ease;
 }
@@ -381,7 +382,6 @@ i {
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 315px;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -427,10 +427,9 @@ i {
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;
-  height: 130px;
+  height: 50px;
   width: 150px;
   align-self: flex-end;
-
   margin-right: 10px;
   margin-bottom: 10px;
 }
